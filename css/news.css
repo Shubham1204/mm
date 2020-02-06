@@ -1,23 +1,4 @@
-/* [Master Stylesheet - v1.0]
-- Template Name: The News Paper - News & Lifestyle Magazine Template
-- Template Author: Colorlib
-- Template URL: http://colorlib.com
-- Version: 1.0
-*/
-/*
-###### Index of Stylesheet ######
-:: 1.0 Import Fonts
-:: 3.0 Base CSS
-:: 4.0 Header Area
-:: 5.0 Hero Area 
-:: 6.0 Blog Post Area
-:: 7.0 Video Post Area
-:: 8.0 Footer Add Area
-:: 9.0 Footer Area
-:: 10.0 About Area
-:: 11.0 Cool Facts
-:: 12.0 Contact Area
-*/
+
 /* :: 1.0 Import Fonts */
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
 /* :: 2.0 Import All CSS */
@@ -1201,3 +1182,7 @@ textarea:focus {
         font-size: 30px; } }
 
 /*# sourceMappingURL=style.css.map */
+
+a{
+  text-decoration: none !important;
+}

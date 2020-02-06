@@ -1,0 +1,28 @@
+body{
+    /* overflow: hidden; */
+}
+
+.bang{
+    width: 20%;
+    height: 100%;
+}
+
+img{
+    width: 24%; 
+    height: 690px;
+    margin-top: -47%;
+}
+
+.lyric{
+    width: 33%;
+    height: 690px;
+    /* margin-left: 25%;  */
+    /* margin-top: -650px; */
+}
+
+.tracks{
+    width: 42%; 
+    height: 690px;
+    /* margin-left: 60%;  */
+    /* margin-top: -670px; */
+}
