@@ -1,28 +1,58 @@
-body{
-    /* overflow: hidden; */
-}
-
-.bang{
+/* .bang{
     width: 20%;
     height: 100%;
-}
+} */
 
-img{
+.image{
     width: 24%; 
-    height: 690px;
-    margin-top: -47%;
+    height: 650px;
+    overflow: hidden;
+    /* margin-top: -47%; */
+}
+.image img{
+ height: 650px;  
+ overflow: hidden; 
+    /* width: 10% !important; */
 }
 
 .lyric{
-    width: 33%;
-    height: 690px;
+    width: 35%;
+    height: 650px;
+    /* overflow: hidden; */
     /* margin-left: 25%;  */
     /* margin-top: -650px; */
 }
 
 .tracks{
-    width: 42%; 
-    height: 690px;
+    width: 40%; 
+    height: 650px;
+    overflow: hidden;
     /* margin-left: 60%;  */
     /* margin-top: -670px; */
 }
+
+@media (max-width: 1150px) {
+.tracks{
+    overflow: auto;
+}
+}
+@media (max-width: 890px) {
+.lyric{
+    width: 34%;
+}
+    .tracks {
+    width: 40%;
+}
+}
+
+@media (max-width: 440px) {
+    .image{
+        width: 48%;
+    }
+    .lyric{
+        width: 48%;
+    }
+        .tracks {
+        width: 100%;
+    }
+    }
