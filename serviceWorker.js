@@ -28,6 +28,7 @@ const assets = [
   "/pages/news.html",
   "/pages/theory.html",
   "/pages/track.html",
+  "/pages/lyrics-image.html",
 
   "/image/banner.jpg",
   "/image/bang-bang.jpg",
